@@ -18,7 +18,20 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+}
+
+header h1{
+  padding: 0px 24px;
+}
+
+header nav a{
+  padding: 0px 12px;
 }
 
 /* Containers */
@@ -75,4 +88,33 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about-block-1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-block-1 p, .about-block-1 ul{
+  text-align: left;
+}
+
+.portfolio-block {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-block section{
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.portfolio-block section p{
+  font-size: 14px;
 }
